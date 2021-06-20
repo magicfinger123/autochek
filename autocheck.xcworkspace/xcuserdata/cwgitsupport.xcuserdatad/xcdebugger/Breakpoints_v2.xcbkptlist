@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "7DB9FBEF-1954-4BAA-8CB7-D0286C69216F"
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "346388BA-D327-443B-980A-07D764853CF2"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "autocheck/features/MainTab/viewModel/HomeVm.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "35"
+            endingLineNumber = "35"
+            landmarkName = "getCarList(page:size:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "346388BA-D327-443B-980A-07D764853CF2 - 4c6cc58a359e3d76"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "autocheck.HomeVM.getCarList(page: Swift.Int, size: Swift.Int) -&gt; ()"
+                  moduleName = "autocheck"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/cwgitsupport/Desktop/kreer/autocheck/autocheck/features/MainTab/viewModel/HomeVm.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "35"
+                  endingLineNumber = "35"
+                  offsetFromSymbolStart = "137">
+               </Location>
+               <Location
+                  uuid = "346388BA-D327-443B-980A-07D764853CF2 - 4c6cc58a359e3d76"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "autocheck.HomeVM.getCarList(page: Swift.Int, size: Swift.Int) -&gt; ()"
+                  moduleName = "autocheck"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/cwgitsupport/Desktop/kreer/autocheck/autocheck/features/MainTab/viewModel/HomeVm.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "35"
+                  endingLineNumber = "35"
+                  offsetFromSymbolStart = "246">
+               </Location>
+               <Location
+                  uuid = "346388BA-D327-443B-980A-07D764853CF2 - 15e9dde5d5449583"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (autocheck.CarListResponse) -&gt; () in autocheck.HomeVM.getCarList(page: Swift.Int, size: Swift.Int) -&gt; ()"
+                  moduleName = "autocheck"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/cwgitsupport/Desktop/kreer/autocheck/autocheck/features/MainTab/viewModel/HomeVm.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "37"
+                  endingLineNumber = "37"
+                  offsetFromSymbolStart = "93">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "97B3BF2D-E66F-49B7-9ABD-81921291F405"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "autocheck/features/MainTab/viewModel/HomeVm.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "24"
+            endingLineNumber = "24"
+            landmarkName = "getProviderModel()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "97B3BF2D-E66F-49B7-9ABD-81921291F405 - 3c8abe38137ae1a1"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "autocheck.HomeVM.getProviderModel() -&gt; ()"
+                  moduleName = "autocheck"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/cwgitsupport/Desktop/kreer/autocheck/autocheck/features/MainTab/viewModel/HomeVm.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "24"
+                  endingLineNumber = "24"
+                  offsetFromSymbolStart = "44">
+               </Location>
+               <Location
+                  uuid = "97B3BF2D-E66F-49B7-9ABD-81921291F405 - 7d3c524c69bd13bd"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (autocheck.PopularMakeResponse) -&gt; () in autocheck.HomeVM.getProviderModel() -&gt; ()"
+                  moduleName = "autocheck"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/cwgitsupport/Desktop/kreer/autocheck/autocheck/features/MainTab/viewModel/HomeVm.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "26"
+                  endingLineNumber = "26"
+                  offsetFromSymbolStart = "87">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "6D2166A8-D94E-4205-8297-4AD163499091"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "autocheck/features/MainTab/viewModel/HomeVm.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "37"
+            endingLineNumber = "37"
+            landmarkName = "getCarList(page:size:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "AEE08A34-AE1E-4B42-B64D-3A3776F5A3A8"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "autocheck/features/MainTab/viewModel/HomeVm.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "26"
+            endingLineNumber = "26"
+            landmarkName = "getProviderModel()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D5A94DBF-31A6-4B05-8CA7-AD62B38910C9"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "autocheck/features/MainTab/home/controller/HomeViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "69"
+            endingLineNumber = "69"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "8347CB51-5211-4929-BE48-85C306D5906B"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "autocheck/features/MainTab/home/views/ProductTableViewCell.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "29"
+            endingLineNumber = "29">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "7DC4DD7C-CA8D-4852-9CD1-DE53BD4CA830"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "autocheck/features/car details/view/CarDetailsViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "50"
+            endingLineNumber = "50"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "294CE272-8D2F-4C93-B884-CBCB962DAD48"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "autocheck/features/car details/view/CarDetailsViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "51"
+            endingLineNumber = "51"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

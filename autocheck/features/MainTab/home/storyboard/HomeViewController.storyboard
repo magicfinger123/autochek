@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Y6W-OH-hqX">
+    <device id="retina6_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Item-->
+        <scene sceneID="s0d-6b-0kx">
+            <objects>
+                <viewController id="Y6W-OH-hqX" customClass="HomeViewController" customModule="autocheck" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="5EZ-qb-Rvc">
+                        <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" bounces="NO" bouncesZoom="NO" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="1fQ-zp-F9B">
+                                <rect key="frame" x="0.0" y="52" width="428" height="791"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="cell" id="Ubm-Zm-UKZ">
+                                        <rect key="frame" x="0.0" y="24.333333969116211" width="428" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="Ubm-Zm-UKZ" id="f2y-fK-Eqd">
+                                            <rect key="frame" x="0.0" y="0.0" width="428" height="44"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                        </tableViewCellContentView>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </tableViewCell>
+                                </prototypes>
+                            </tableView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ETw-xL-KyV">
+                                <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
+                                <subviews>
+                                    <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" animating="YES" style="large" translatesAutoresizingMaskIntoConstraints="NO" id="Iv9-4i-84G">
+                                        <rect key="frame" x="194" y="443" width="40" height="40"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="40" id="1HL-oe-f0a"/>
+                                            <constraint firstAttribute="height" constant="40" id="Sv6-sa-Y55"/>
+                                        </constraints>
+                                        <color key="color" name="color3"/>
+                                    </activityIndicatorView>
+                                </subviews>
+                                <color key="backgroundColor" red="0.058823529409999999" green="0.074509803920000006" blue="0.1529411765" alpha="0.78096483240000003" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstItem="Iv9-4i-84G" firstAttribute="centerX" secondItem="ETw-xL-KyV" secondAttribute="centerX" id="gw7-oU-SeF"/>
+                                    <constraint firstItem="Iv9-4i-84G" firstAttribute="centerY" secondItem="ETw-xL-KyV" secondAttribute="centerY" id="nBJ-Se-MpH"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
+                        <color key="backgroundColor" name="color4"/>
+                        <constraints>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="1fQ-zp-F9B" secondAttribute="trailing" id="0hW-89-wjl"/>
+                            <constraint firstItem="ETw-xL-KyV" firstAttribute="top" secondItem="5EZ-qb-Rvc" secondAttribute="top" id="7kV-Ls-XUN"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="bottom" secondItem="1fQ-zp-F9B" secondAttribute="bottom" id="IPj-T1-4bj"/>
+                            <constraint firstItem="1fQ-zp-F9B" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" id="Lhd-QV-jlp"/>
+                            <constraint firstAttribute="bottom" secondItem="ETw-xL-KyV" secondAttribute="bottom" id="f5R-aQ-Spx"/>
+                            <constraint firstAttribute="trailing" secondItem="ETw-xL-KyV" secondAttribute="trailing" id="rUj-27-bcq"/>
+                            <constraint firstItem="ETw-xL-KyV" firstAttribute="leading" secondItem="5EZ-qb-Rvc" secondAttribute="leading" id="rjc-IA-nn7"/>
+                            <constraint firstItem="1fQ-zp-F9B" firstAttribute="top" secondItem="vDu-zF-Fre" secondAttribute="top" constant="8" id="sPz-qL-Cb3"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Item" image="house.fill" catalog="system" id="c8w-SE-X4q"/>
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
+                    <connections>
+                        <outlet property="activityLoader" destination="ETw-xL-KyV" id="DkA-o1-5MM"/>
+                        <outlet property="tableView" destination="1fQ-zp-F9B" id="qfm-Eb-Hzy"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="139" y="138"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="house.fill" catalog="system" width="128" height="106"/>
+        <namedColor name="color3">
+            <color red="1" green="0.80000000000000004" blue="0.40000000000000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="color4">
+            <color red="0.98039215686274506" green="0.98039215686274506" blue="0.98039215686274506" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>

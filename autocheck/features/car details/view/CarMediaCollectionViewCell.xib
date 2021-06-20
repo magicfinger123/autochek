@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="CarMediaCollectionViewCell" id="gTV-IL-0wX" customClass="CarMediaCollectionViewCell" customModule="autocheck" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="262" height="225"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="262" height="225"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="M9b-o4-NUJ">
+                        <rect key="frame" x="0.0" y="0.0" width="262" height="225"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="peS-Mt-51A">
+                                <rect key="frame" x="2" y="2" width="70" height="70"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="70" id="5lT-2c-46Z"/>
+                                    <constraint firstAttribute="width" constant="70" id="pnV-4I-EgR"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="peS-Mt-51A" secondAttribute="trailing" constant="2" id="9St-Kg-hgL"/>
+                            <constraint firstAttribute="bottom" secondItem="peS-Mt-51A" secondAttribute="bottom" constant="2" id="Dqa-DE-Wh1"/>
+                            <constraint firstItem="peS-Mt-51A" firstAttribute="leading" secondItem="M9b-o4-NUJ" secondAttribute="leading" constant="2" id="HRu-ld-cRd"/>
+                            <constraint firstItem="peS-Mt-51A" firstAttribute="top" secondItem="M9b-o4-NUJ" secondAttribute="top" constant="2" id="IJ0-6E-4HT"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="M9b-o4-NUJ" secondAttribute="trailing" id="1ev-RL-Dp6"/>
+                <constraint firstItem="M9b-o4-NUJ" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="Mt9-zm-Ivr"/>
+                <constraint firstAttribute="bottom" secondItem="M9b-o4-NUJ" secondAttribute="bottom" id="MvA-wg-uM5"/>
+                <constraint firstItem="M9b-o4-NUJ" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="x4f-8H-kqK"/>
+            </constraints>
+            <size key="customSize" width="262" height="225"/>
+            <connections>
+                <outlet property="image" destination="peS-Mt-51A" id="lbJ-gO-Uyk"/>
+            </connections>
+            <point key="canvasLocation" x="130.43478260869566" y="189.17410714285714"/>
+        </collectionViewCell>
+    </objects>
+</document>

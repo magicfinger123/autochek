@@ -1,0 +1,6 @@
+framework module BMSegmentedControl {
+  umbrella header "BMSegmentedControl-umbrella.h"
+
+  export *
+  module * { export * }
+}
